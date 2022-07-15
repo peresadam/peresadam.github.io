@@ -1,0 +1,95 @@
+body{background:#FFF;font-family:Corbel, Verdana, sans-serif;margin:0;padding:0;}
+h1{font-size:400%;color:#625539;font-family:Constantia, Georgia, serif;font-weight:400;margin-top:0;margin-bottom:.25em;}
+h1+p,h1+h2{margin-top:-.5em;}
+h2{font-size:200%;color:#6d834e;font-family:Constantia, Georgia, serif;font-weight:400;margin-bottom:.25em;position:relative;left:-150px;border-left:130px solid #6d834e;padding-left:20px;clear:left;}
+h3{position:absolute;left:0;width:130px;background:#fff;text-align:right;border-top:2px solid #625539;color:#625529;font-size:110%;}
+h3+p,h3+ul{margin-top:1.5em;}
+.inline-h3 h3{position:relative;width:auto;text-align:left;border-top:none;background:none;}
+.inline-h3 h3+p,.inline-h3 h3+ul{margin-top:-1em;}
+h4{font-family:Constantia, Georgia, serif;margin-bottom:.25em;}
+td{vertical-align:top;}
+#head{border-top:2em solid #7e7156;height:0;}
+#head p{position:absolute;top:0;}
+#nav{position:absolute;top:0;left:150px;font-weight:700;font-size:120%;margin:.35em 0 0;}
+#nav a,#head a{text-decoration:none;color:#fff;margin-right:1em;padding:0;}
+#nav a:hover,body.geo #nav-geo,body.blog #nav-blog,body.topics #nav-topics,body.labs #nav-labs,body.realtime #nav-realtime{border-bottom:5px solid #ebd8af;}
+#logo{font-size:150%;position:absolute;right:0;height:2em;vertical-align:middle;margin:0;padding:0;}
+#logo a{margin-right:.25em;}
+#body{margin:30px 30px 30px 150px;}
+div.testament{width:40%;float:left;}
+div.testament h3{position:static;width:auto;text-align:left;}
+div.testament li{font-size:110%;}
+div.testament ul,ul.chapters,#side ul{list-style-type:none;margin-left:0;padding-left:0;}
+p.intro{font-family:Constantia;font-size:125%;color:#444;}
+#side{border-top:1px solid #7e7156;padding-top:0;margin-top:25px;}
+#foot{margin-left:150px;font-size:85%;color:#444;border-top:1px solid #7e7156;padding-top:5px;margin-top:25px;clear:both;}
+ul.chapters li{margin-bottom:.25em;}
+ul.overlay-gallery li{list-style-type:none;display:inline;float:left;clear:right;margin:auto 2em 1em auto;}
+.alpha-nav{color:#ccc;}
+.alpha-nav strong{color:#000;}
+a img{border:none;}
+a.ge{height:32px;background:url(http://a.openbible.info/images/ge.png);background-repeat:no-repeat;padding:10px 0 10px 36px;}
+h2 a{text-decoration:none;color:#6d834e;}
+span.preview,.note{font-size:85%;color:#444;}
+img.atlas{float:left;margin:auto 2em 2em auto;}
+hr.clear{height:1px;visibility:hidden;clear:both;}
+code{font-family:Consolas, monospace;font-size:85%;background:#eee;}
+span.note{font-weight:400;font-size:80%;}
+cite.bibleref{font-style:normal;}
+input{font-family:Candara, sans-serif;font-weight:400;}
+#suggest ol{width:25%;float:left;list-style-type:none;}
+h2 input[type=submit]{font-size:100%;}
+form.topic-search{background:#c1e68d;font-weight:700;margin:-30px -30px auto -150px;padding:4px 5px 4px 150px;}
+form+h1{margin-top:.2em;}
+body.script .invisible{visibility:hidden;}
+body.script .visible,body.script .visible .invisible{visibility:visible;}
+.topic-search .alpha-nav{font-weight:400;margin-top:-.5em;}
+p.message,p.error{background:#ebd8af;border-top:1px solid #7e7156;border-bottom:1px solid #7e7156;padding:10px;}
+div.verse{margin-left:-150px;padding-left:150px;}
+body.script .vote-buttons{position:absolute;left:0;width:140px;padding-right:10px;text-align:right;margin:0;}
+.vote-buttons button{margin-bottom:3px;}
+p.browse-verse{font-size:80%;margin-top:-.75em;}
+p.verse-text{font-size:120%;line-height:160%;}
+p.verse-topics{line-height:250%;}
+p.verse-topics a{text-decoration:none;margin-right:1em;}
+a.cloud-1{font-size:90%;}
+a.cloud-3{font-size:150%;}
+a.cloud-4{font-size:200%;}
+a.cloud-5{font-size:250%;}
+body.topics h1 span.small{display:block;font-size:35%;margin-bottom:-.75em;}
+body.photos h1 img{float:left;margin-right:15px;margin-bottom:.5em;}
+body.photos div.col{width:30%;float:left;}
+body.photos div.col h2{border-color:transparent;}
+span.credit{font-size:75%;}
+table.photos{min-width:95%;}
+table.photos td{padding:3px;}
+.clear{clear:both;}
+.left{float:left;}
+table.data{border-spacing:0;}
+table.data td{border-bottom:1px solid #ccc;}
+table.data th{text-align:left;border-bottom:1px solid #666;}
+td.number{text-align:right;}
+#tweets div.tweets{margin-top:12px;padding:0;}
+#tweets span.meta{display:block;color:#666;font-size:80%;margin-top:3px;}
+#tweets div.tweets div{border-top:1px dashed #ccc;line-height:125%;clear:left;padding:5px 0;}
+#tweets{max-width:564px;margin-top:20px;padding:12px 0;}
+#tweets span.tweet{display:block;text-align:justify;padding-left:63px;}
+#tweets span.meta a{text-decoration:none;color:#666;}
+body.realtime a.bibleref{color:#390;}
+#tweets span.vote a,#tweets span.vote a:visited{background:#f2ffdf;border:1px solid #a7e451;color:#000;text-decoration:none;padding:0 2px;}
+#tweets img.avatar{float:left;overflow:hidden;margin-right:10px;margin-top:4px;margin-bottom:6px;}
+#tweets span.tweet span.link-content{display:block;}
+#tweets span.tweet img.thumbnail{float:left;margin-right:10px;}
+#tweets span.link-content{color:#666;padding-top:10px;}
+#tweets span.condense_control{color:#00e;}
+#tweets h2{margin-top:0;}
+.realtime-home #tweets{border-right:200px solid #f0f0f0;float:left;padding-top:0;padding-right:20px;}
+.realtime-home .top{float:left;width:200px;margin-left:-200px;padding:10px 20px;}
+#top-ads,.right,#tweets span.vote{float:right;}
+h2 input,a.cloud-2,body.realtime input.search{font-size:120%;}
+.topic-search input,table.data td,table.data th{padding:2px;}
+p.verse-topics a:hover,#tweets span.meta a:hover{text-decoration:underline;}
+body.photos h2,p.prev-next{clear:left;}
+@media print {
+#top-ads{display:none;}
+}

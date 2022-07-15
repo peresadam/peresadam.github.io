@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Biblia</title>
+<meta name="viewport" content="width=1024" />
+<link rel="stylesheet" type="text/css" href="style.min.css" />
+<script type="text/javascript" src="base2-dom-fp.js"></script>
+<script type="text/javascript" src="browse-books.js"></script>
+<script type="text/javascript" src="browse-books-hu.js"></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<style type="text/css">
+#body, #foot { margin: 0 5px 0 5px; padding: 0; }
+#example { font-size: 16px; line-height: 16px; clear: both; margin: 0; }
+#example p { padding: 0; margin: 0; height: 240px; float: left; }
+#example a { display: block; height: 16px; border-bottom: 1px solid #fff; cursor: pointer; color: #000; text-decoration: none; }
+.partial { float: left; }
+.partial+a:not(.partial) { clear: left; }
+
+#pent { width: 250px; background: #f99; clear: left; }
+#pent a { padding: 16px 2px 15px 2px; }
+#pent a:hover { background: #c66; }
+
+#hist { width: 250px; background: #fc9; }
+#hist a { padding: 7px 2px 6px 2px; }
+#hist a:hover { background: #c96; }
+#hist .partial { width: 121px; }
+
+#poetry { width: 200px; background: #ff9; }
+#poetry a { padding: 10px 2px 9px 2px; }
+#poetry a:hover { background: #cc6; }
+a#ps { padding: 30px 2px 29px 2px; }
+a#job, a#prov { padding: 15px 2px 14px 2px; }
+
+#major { width: 200px; background: #9f9; }
+#major a { padding: 27px 2px 26px 2px; }
+#major a:hover { background: #6d6; }
+a#jer { width: 146px; }
+a#lam { width: 46px; }
+a#ezek { padding: 24px 2px 23px; }
+a#dan { padding: 10px 2px 9px 2px; }
+
+#minor { width: 100px; background: #9ff; }
+#minor a { padding: 2px 2px 1px 2px; }
+#minor a:hover { background: #6cc; }
+
+#gospels { width: 520px; background: #9cf; }
+#gospels a { padding: 16px 2px 15px 2px; }
+#gospels a:hover { background: #69c; }
+
+#paul { width: 300px; background: #99f; }
+#paul a { padding: 4px 2px 3px 2px; }
+#paul a:hover { background: #66c; }
+#paul .partial { width: 146px; }
+
+#epistles { width: 180px; background: #c9f; }
+#epistles a { padding: 12px 2px 11px 2px; }
+#epistles a:hover { background: #96c; }
+a#pet1, a#pet2 { width: 86px; }
+a#john1, a#john2, a#john3 { width: 56px; }
+
+#h { background: #000; color: #fff; opacity: 0.8; width: 294px; height: auto; display: none; position: absolute; padding: 3px; -moz-border-radius: 0 0 10px 10px; margin: 0; }
+#h+p { clear: both; }
+</style>
+</head>
+<body class="labs">
+<div id="body"><h1><a href="index.html">Biblia</a></h1>
+<style type="text/css">h1 a { color:inherit;}</style>
+<div id="example">
+<p id="pent">
+<a id="gen"  href="http://www.biblegateway.com/passage/?search=Gen+1">Gen</a>
+<a id="exod" href="http://www.biblegateway.com/passage/?search=Exod+1">Exod</a>
+<a id="lev"  href="http://www.biblegateway.com/passage/?search=Lev+1">Lev</a>
+<a id="num"  href="http://www.biblegateway.com/passage/?search=Num+1">Num</a>
+<a id="deut" href="http://www.biblegateway.com/passage/?search=Deut+1">Deut</a>
+</p>
+<p id="hist">
+<a id="josh" href="http://www.biblegateway.com/passage/?search=Josh+1">Josh</a>
+<a id="judg" href="http://www.biblegateway.com/passage/?search=Judg+1">Judg</a>
+<a id="ruth" href="http://www.biblegateway.com/passage/?search=Ruth+1">Ruth</a>
+<a id="sam1" class="partial" href="http://www.biblegateway.com/passage/?search=1Sam+1">1Sam</a><a id="sam2" class="partial" href="http://www.biblegateway.com/passage/?search=2Sam+1">2Sam</a>
+<a id="kgs1" class="partial" href="http://www.biblegateway.com/passage/?search=1Kgs+1">1Kgs</a><a id="kgs2" class="partial" href="http://www.biblegateway.com/passage/?search=2Kgs+1">2Kgs</a>
+<a id="chr1" class="partial" href="http://www.biblegateway.com/passage/?search=1Chr+1">1Chr</a><a id="chr2" class="partial" href="http://www.biblegateway.com/passage/?search=2Chr+1">2Chr</a>
+<a id="ezra" class="partial" href="http://www.biblegateway.com/passage/?search=Ezra+1">Ezra</a><a id="neh"  class="partial" href="http://www.biblegateway.com/passage/?search=Neh+1">Neh</a>
+<a id="esth" href="http://www.biblegateway.com/passage/?search=Esth+1">Esth</a>
+</p>
+<p id="poetry">
+<a id="job"  href="http://www.biblegateway.com/passage/?search=Job+1">Job</a>
+<a id="ps"   href="http://www.biblegateway.com/passage/?search=Ps+1">Ps</a>
+<a id="prov" href="http://www.biblegateway.com/passage/?search=Prov+1">Prov</a>
+<a id="eccl" href="http://www.biblegateway.com/passage/?search=Eccl+1">Eccl</a>
+<a id="song" href="http://www.biblegateway.com/passage/?search=Song+1">Song</a>
+</p>
+<p id="major">
+<a id="isa"  href="http://www.biblegateway.com/passage/?search=Isa+1">Isa</a>
+<a id="jer"  class="partial" href="http://www.biblegateway.com/passage/?search=Jer+1">Jer</a><a id="lam" class="partial" href="http://www.biblegateway.com/passage/?search=Lam+1">Lam</a>
+<a id="ezek" href="http://www.biblegateway.com/passage/?search=Ezek+1">Ezek</a>
+<a id="dan"  href="http://www.biblegateway.com/passage/?search=Dan+1">Dan</a>
+</p>
+<p id="minor">
+<a id="hos"   href="http://www.biblegateway.com/passage/?search=Hos+1">Hos</a>
+<a id="joel"  href="http://www.biblegateway.com/passage/?search=Joel+1">Joel</a>
+<a id="amos"  href="http://www.biblegateway.com/passage/?search=Amos+1">Amos</a>
+<a id="obad"  href="http://www.biblegateway.com/passage/?search=Obad+1">Obad</a>
+<a id="jonah" href="http://www.biblegateway.com/passage/?search=Jonah+1">Jonah</a>
+<a id="mic"   href="http://www.biblegateway.com/passage/?search=Mic+1">Mic</a>
+<a id="nah"   href="http://www.biblegateway.com/passage/?search=Nah+1">Nah</a>
+<a id="hab"   href="http://www.biblegateway.com/passage/?search=Hab+1">Hab</a>
+<a id="zeph"  href="http://www.biblegateway.com/passage/?search=Zeph+1">Zeph</a>
+<a id="hag"   href="http://www.biblegateway.com/passage/?search=Hag+1">Hag</a>
+<a id="zech"  href="http://www.biblegateway.com/passage/?search=Zech+1">Zech</a>
+<a id="mal"   href="http://www.biblegateway.com/passage/?search=Mal+1">Mal</a>
+</p>
+<p id="gospels">
+<a id="matt" href="http://www.biblegateway.com/passage/?search=Matt+1">Matt</a>
+<a id="mark" href="http://www.biblegateway.com/passage/?search=Mark+1">Mark</a>
+<a id="luke" href="http://www.biblegateway.com/passage/?search=Luke+1">Luke</a>
+<a id="john" href="http://www.biblegateway.com/passage/?search=John+1">John</a>
+<a id="acts" href="http://www.biblegateway.com/passage/?search=Acts+1">Acts</a>
+</p>
+<p id="paul">
+<a id="rom"   href="http://www.biblegateway.com/passage/?search=Rom+1">Rom</a>
+<a id="cor1"  class="partial" href="http://www.biblegateway.com/passage/?search=1Cor+1">1Cor</a><a id="cor2" class="partial" href="http://www.biblegateway.com/passage/?search=2Cor+1">2Cor</a>
+<a id="gal"   href="http://www.biblegateway.com/passage/?search=Gal+1">Gal</a>
+<a id="eph"   href="http://www.biblegateway.com/passage/?search=Eph+1">Eph</a>
+<a id="phil"  href="http://www.biblegateway.com/passage/?search=Phil+1">Phil</a>
+<a id="col"   href="http://www.biblegateway.com/passage/?search=Col+1">Col</a>
+<a id="thess1" class="partial" href="http://www.biblegateway.com/passage/?search=1Thess+1">1Thess</a><a id="thess2" class="partial" href="http://www.biblegateway.com/passage/?search=2Thess+1">2Thess</a>
+<a id="tim1"  class="partial" href="http://www.biblegateway.com/passage/?search=1Tim+1">1Tim</a><a id="tim2" class="partial" href="http://www.biblegateway.com/passage/?search=2Tim+1">2Tim</a>
+<a id="titus" href="http://www.biblegateway.com/passage/?search=Titus+1">Titus</a>
+<a id="phlm"  href="http://www.biblegateway.com/passage/?search=Phlm+1">Phlm</a>
+</p>
+<p id="epistles">
+<a id="heb"  href="http://www.biblegateway.com/passage/?search=Heb+1">Heb</a>
+<a id="jas"  href="http://www.biblegateway.com/passage/?search=Jas+1">Jas</a>
+<a id="pet1" class="partial" href="http://www.biblegateway.com/passage/?search=1Pet+1">1Pet</a><a id="pet2" class="partial" href="http://www.biblegateway.com/passage/?search=2Pet+1">2Pet</a>
+<a id="john1" class="partial" href="http://www.biblegateway.com/passage/?search=1John+1">1John</a><a id="john2" class="partial" href="http://www.biblegateway.com/passage/?search=2John+1">2John</a><a id="john3" class="partial" href="http://www.biblegateway.com/passage/?search=3John+1">3John</a>
+<a id="jude" href="http://www.biblegateway.com/passage/?search=Jude+1">Jude</a>
+<a id="rev" href="http://www.biblegateway.com/passage/?search=Rev+1">Rev</a>
+</p>
+</div>
+<style type="text/css">
+  #outro {
+    padding-top: 2ex;
+    font-size: large;
+  }
+</style>
+<p id="h"></p>
+<p id="outro">Súgó: Vidd a kurzort az egyes könyvek fölé. Mozgasd az egeret jobbra és balra a fejezet kiválasztásához, majd kattints a fejezet megnyitásához.</p>
+</div>
+<div id="foot">
+<p>Források: <a href="https://abibliamindenkie.hu/">https://abibliamindenkie.hu/</a>, <a href="http://www.openbible.info/labs/browse-books/">http://www.openbible.info/labs/browse-books/</a>.</p>
+</div>
+</body>
+</html>
