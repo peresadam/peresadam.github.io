@@ -16,6 +16,13 @@
 .partial { float: left; }
 .partial+a:not(.partial) { clear: left; }
 
+#body { max-width:1200px }
+@media (min-width: 550px) and (max-width: 1040px) {
+  #poetry { clear: left; }
+  #gospels { clear: left; }
+  #paul { clear: left; }
+}
+
 #pent { width: 250px; background: #f99; clear: left; }
 #pent a { padding: 16px 2px 15px 2px; }
 #pent a:hover { background: #c66; }
